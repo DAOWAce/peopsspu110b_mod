@@ -292,6 +292,7 @@ extern int iZincEmu;
 
 
 // new settings
+
 extern int phantom_padder;
 extern int phantom_pad_size;
 extern int phantom_post_pad;
@@ -310,6 +311,7 @@ extern int reverb_target;
 
 
 // psx buffers / addresses
+
 extern unsigned short  regArea[];                        
 extern unsigned short  spuMem[];
 extern unsigned char * spuMemC;

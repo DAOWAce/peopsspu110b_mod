@@ -47,7 +47,6 @@ email                : BlackDove@addcom.de
 
 extern int iZincEmu;
 
-
 ////////////////////////////////////////////////////////////////////////
 // WINDOWS CONFIG/ABOUT HANDLING
 ////////////////////////////////////////////////////////////////////////
@@ -460,7 +459,7 @@ BOOL OnInitDSoundDialog(HWND hW)
 	ComboBox_AddString(hWC, "1: Timer (system real-time clock)");
 	ComboBox_AddString(hWC, "2: Async simple (fast-forward, skip timing)");
 	ComboBox_AddString(hWC, "3: Async wait (cpu sleep, lockstep timing)");
-	ComboBox_AddString(hWC, "4: Async on-demand (best quality, heavy system)");
+	ComboBox_AddString(hWC, "4: Async on-demand (best quality, cpu intensive)");
 	ComboBox_SetCurSel(hWC,iUseTimer);
 	
 	hWC=GetDlgItem(hW,IDC_USEREVERB);
